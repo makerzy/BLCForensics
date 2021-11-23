@@ -98,9 +98,9 @@ contract CaseManager {
     
     constructor(){
         owner = msg.sender;
-        isFirstResponder[msg.sender];
-        isInvestigator[msg.sender];
-        isProsecutor[msg.sender];
+        isFirstResponder[msg.sender]=true;
+        isInvestigator[msg.sender]=true;
+        isProsecutor[msg.sender]=true;
         
     }
     
